@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+    <header>
+        <!--
+            Name: Natalia Cano
+            Date: November 08, 2023
+            Goal: To create multiple colored boxes and practice padding and borders.
+        -->
+    </header>
+    <style>
+        p {
+            margin: 0px;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+        #grey {
+            background-color: grey;
+            padding: 20px;
+            border: solid black 10px;
+        }
+        #burly {
+            background-color: burlywood;
+            border-width: 20px 10px;
+            border-color: black;
+            border-style: solid;
+            margin-left:260px;
+        }
+        #sky {
+            background-color: skyblue;
+            border: solid black 10px;
+            margin-left: 40px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="box" id="grey">
+            <p> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elis
+                Aliquam at sapien porttitor urna elementum lacinia. In
+                id magna pulvinar, ultricies lorem id, vehicula elit. 
+                Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+                dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+            </p>
+        </div>
+        <div class="box" id="burly"></div>
+        <div class="box" id="sky"></div>
+    </body>
+</html>

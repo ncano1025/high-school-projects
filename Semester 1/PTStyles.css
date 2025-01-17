@@ -1,0 +1,34 @@
+/* Universal Styles */
+
+* {
+    margin: 0px;
+}
+
+section.header {
+    width: max;
+    height: 8rem;
+    /* background-image: image-set("Resources/Images/beige.webp"); */
+    background-color: black;
+}
+
+/* Landing Page Styles */
+
+section.title {
+    width: max;
+    height: 52rem;
+    background-color: blue;
+}
+
+/* Daily Schedule Styles */
+
+
+
+/* Meal Plan Styles */
+
+
+
+/* Events Styles */
+
+
+
+/* Photo Gallery Styles */
